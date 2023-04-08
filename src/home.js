@@ -9,7 +9,7 @@ import UserSection from './userSection';
 export default function Home() {
  const location = useLocation();
  const email = location?.state?.email;
- let API_URL =  "https://3jzllb3tfg.execute-api.us-east-1.amazonaws.com/staging/";
+ let API_URL =  "https://wt4cndvg3g.execute-api.us-east-1.amazonaws.com/Staging/";
 
   const [homeData, setHomeData] = useState(null);
   const [username, setUsername] = useState(null);
@@ -68,7 +68,7 @@ export default function Home() {
 
     try {
       const response = await fetch(
-        'https://3jzllb3tfg.execute-api.us-east-1.amazonaws.com/staging/home',
+        'https://wt4cndvg3g.execute-api.us-east-1.amazonaws.com/Staging/home',
         requestOptions
       );
 
@@ -98,7 +98,7 @@ export default function Home() {
 
     try {
       const response = await fetch(
-        'https://3jzllb3tfg.execute-api.us-east-1.amazonaws.com/staging/home',
+        'https://wt4cndvg3g.execute-api.us-east-1.amazonaws.com/Staging/home',
         requestOptions
       );
 

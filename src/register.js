@@ -8,7 +8,7 @@ export default function Register() {
     // Handle registration form submission and redirect to login page upon successful registration.
     async function handleRegister (e) {
         const form = document.getElementById("registration-form");
-        let API_URL =  "https://nnyi01lnx6.execute-api.us-east-1.amazonaws.com/staging/register";
+        let API_URL =  "https://y9whj70eia.execute-api.us-east-1.amazonaws.com/Staging/register";
 
         e.preventDefault();
         const email = document.getElementById('email').value;

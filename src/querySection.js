@@ -37,7 +37,7 @@ function QuerySection({ email, onSubscribe, isLoading }) {
         };
 
         try {
-            const response = await fetch('https://3jzllb3tfg.execute-api.us-east-1.amazonaws.com/staging/home', requestOptions);
+            const response = await fetch('https://wt4cndvg3g.execute-api.us-east-1.amazonaws.com/Staging/home', requestOptions);
             const data = await response.json();
             console.log("HERE IS THE QUERY RESULTS: ", data);
 

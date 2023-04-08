@@ -10,7 +10,7 @@ export default function Login() {
         e.preventDefault();
         const email = document.getElementById('email').value;
         const password = document.getElementById('password').value;
-        let API_URL =  "https://nnyi01lnx6.execute-api.us-east-1.amazonaws.com/staging/";
+        let API_URL =  "https://y9whj70eia.execute-api.us-east-1.amazonaws.com/Staging/";
 
         try {
             const response = await fetch(API_URL+"login", {
