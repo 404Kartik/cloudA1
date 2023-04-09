@@ -1,10 +1,13 @@
+import React from 'react';
+import './userSection.css';
+
 function UserSection({ username }) {
 
   return (
-    <div>
-        <h1>User Section</h1>
-        <h3> Logged in as {username} </h3>
-        <hr></hr>
+    <div className="user-section">
+        <h1 className="title">User Section</h1>
+        <h3 className="username"> Logged in as: <span>{username}</span> </h3>
+        <hr />
     </div>
   );
 }

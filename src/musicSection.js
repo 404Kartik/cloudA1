@@ -7,6 +7,7 @@ function MusicSection({ homeData, isLoading, onUnsubscribe  }) {
     const handleUnsubscribe = (song_name) => {
       onUnsubscribe(song_name);
     };
+    console.log(homeData);
 
     return (
         <div className='musicSection'>

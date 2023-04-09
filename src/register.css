@@ -1,56 +1,61 @@
 body {
-    background-color: #f2f2f2;
-  }
-  
-  h1 {
-    text-align: center;
-    font-size: 36px;
-    margin-top: 50px;
-  }
-  
-  form {
-    width: 500px;
-    margin: 50px auto;
-    background-color: #fff;
-    padding: 50px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  label {
-    font-size: 18px;
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="password"] {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  input[type="submit"] {
-    background-color: #0077cc;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #005fa3;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  background-image: linear-gradient(to bottom right, #000, #1e1e1e);
+}
 
-  #registration-form input[type="submit"] {
-    margin-right: 10px;
-  }
-  
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 50px;
+  color: #fff;
+}
+
+form {
+  width: 500px;
+  margin: 50px auto;
+  background-color: #333;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1e1e1e;
+  color: #fff;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+  background-color: #5cb85c;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #4cae4c;
+}
+
+#registration-form input[type="submit"] {
+  margin-right: 10px;
+}
